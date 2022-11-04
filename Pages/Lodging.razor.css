@@ -1,0 +1,67 @@
+﻿header {
+    background-image: url(Img/hotels.jpg);
+    height: 36vh;
+    background-position: center;
+    text-align: center;
+}
+
+    header h1 {
+        color: white;
+        font-family: roboto;
+        font-weight: 700;
+        transform: translateY(50px);
+    }
+
+.wave {
+    background-image: url(Img/wave2.svg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+#info-box {
+    margin-top: 50px;
+}
+
+.side-nav {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#hotels {
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.card ul {
+    text-align: center;
+}
+
+.card ul li {
+    display: inline;
+    list-style: none;
+    color: #f1c40f;
+}
+
+.card .card-title{
+    text-align: center;
+    font-family: roboto;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.card .btn {
+    background-color: #3498db;
+    border: none;
+    font-family: Roboto;
+    width: 100%;
+}
+
+.card .card-text {
+    font-family: noto sans;
+}

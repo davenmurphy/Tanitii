@@ -1,0 +1,237 @@
+﻿header {
+    background-image: url(Img/header-bg.jpg);
+    background-position: center;
+    height: 80vh;
+    text-align: center;
+}
+
+header .header-content {
+    transform: translateY(200px);
+}
+
+header .wave {
+    background-image: url(Img/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 13vh;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 3.5rem;
+}
+
+header p {
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: noto sans;
+}
+
+header .button-group {
+    margin-top: 50px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+header .button-group .btn {
+    background-color: #2980b9;
+    border: none;
+    border-radius: 0;
+    font-family: Roboto;
+    font-size: 1.5rem;
+}
+
+
+#events {
+    background-color: #3498db;
+}
+
+#events h3 {
+    font-family: roboto;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#events p {
+    letter-spacing: 1px;
+    font-family: noto sans;
+}
+
+#events h5 {
+    font-family: roboto;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+#events .events-intro h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    font-family: roboto;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#events .carousel {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#events .carousel img {
+    border-radius: 20px;
+    width: 500px!important;
+    height: 350px;
+}
+
+#events .carousel-text {
+    margin-top: 10px;
+    max-width: 550px;
+}
+
+#events .carousel ul li {
+    list-style: none;
+    font-family: noto sans;
+    letter-spacing: 1px;
+}
+
+#events .carousel a {
+    text-decoration: none;
+    margin-top: 20px;
+    color: #27ae60;
+    font-family: noto sans;
+}
+
+#planning .wave2 {
+    background-image: url(Img/wave2.svg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    top: 0;
+    background-color: #3498db;
+    text-align: center;
+}
+
+
+#planning {
+    text-align: center;
+}
+
+#planning .planning-text {
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+#planning .planning-text h1 {
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 2.6rem;
+    margin-bottom: 20px;
+}
+
+#planning .planning-text p {
+    max-width: 600px;
+    font-family: noto sans;
+    margin: 0 auto;
+    letter-spacing: 1px;
+}
+
+#planning .card {
+    border: none;
+}
+
+#planning .card img {
+    border-radius: 20px;
+}
+
+#planning .card h5 {
+    font-family: Roboto;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top:10px;
+}
+
+#planning .card p {
+    font-family: Noto sans;
+    margin-top: 10px;
+}
+
+#planning .card .btn {
+    background-color: #3498db;
+    border: 0;
+}
+
+#planning .wave4 {
+    background-image: url(Img/wave4.svg);
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    top: 200px;
+    text-align: center;
+}
+
+#map {
+    background-color: #3498db;
+}
+
+#map .wave5 {
+    background-image: url(Img/wave5.svg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    top: 0;
+    text-align: center;
+    background-color: white;
+}
+
+
+
+
+#facts {
+    margin-bottom: 150px;
+    margin-top:90px;
+}
+
+#facts h1 {
+    text-align: center;
+    font-family: roboto;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#facts button {
+    width: 100%;
+    margin-bottom: -17px;
+    border-radius: 0;
+    font-family: roboto;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    background-color: #3498db;
+    border: #3498db;
+    margin-top: 40px;
+}
+
+#facts button i {
+    float: right;
+    margin-top: 5px;
+}
+
+#facts .card-body {
+    font-family: noto sans;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    border-radius: 0;
+}
+
+#facts .row {
+    margin-top: 40px;
+}

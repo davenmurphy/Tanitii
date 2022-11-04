@@ -1,0 +1,40 @@
+﻿header {
+    background-image: url(Img/header-bg.jpg);
+    height: 36vh;
+    background-position: center;
+    text-align: center;
+}
+
+    header h1 {
+        color: white;
+        font-family: roboto;
+        font-weight: 700;
+        transform: translateY(50px);
+    }
+
+.wave {
+    background-image: url(Img/wave2.svg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+#page {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+#page img {
+    width: 70%;
+}
+
+#page p {
+    font-family: noto sans;
+    line-height: 30px;
+    letter-spacing: 1px;
+}

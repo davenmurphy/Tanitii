@@ -1,0 +1,47 @@
+﻿header {
+    background-image: url(Img/header-contact.jpg);
+    height: 36vh;
+    background-position: center;
+    text-align: center;
+}
+
+    header h1 {
+        color: white;
+        font-family: roboto;
+        font-weight: 700;
+        transform: translateY(50px);
+    }
+
+.wave {
+    background-image: url(Img/wave2.svg);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+#contact {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+#contact img {
+    width: 65%;
+    margin-top: 20px;
+}
+
+#contact input {
+    border: solid #3498db 1px;
+}
+
+#contact textarea {
+    border: solid #3498db 1px;
+}
+
+button {
+    font-family: noto sans;
+    letter-spacing: 1px;
+    background-color: #3498db;
+    border: 0;
+    width: 100%;
+}
